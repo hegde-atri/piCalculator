@@ -16,4 +16,6 @@ def calculate_pi(n):
 
     return 4 * (num_point_circle / num_point_total)
 
-print(calculate_pi(100000))
+
+print(calculate_pi(10_000))
+#run calculate_pi(n) where n is the number of iterations; the more the number of iterations, the closer to the value of pi
